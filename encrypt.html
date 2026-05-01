@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    
+	<link rel="stylesheet" href="encrypt.css">
+   
+</head>
+<body >
+  <div class="con1">
+    <nav class="navbar">
+     
+        <img src="logo.jpg" class="logo" alt="">
+      
+
+       <ul class="nav-list">
+      
+        
+        <li class="nav-item"><a href="decrypt.html" class="nav-link">Decrypter</a></li>
+        <li class="nav-item"><a href="encrypt.html" class="nav-link">Encrypter</a></li>
+       
+      </ul>
+
+</nav>
+<div class="container">
+  <div id="input-container">
+         <h1>Caesar Cipher Encrypter</h1>
+
+
+    <div class="input">
+      <img src="t.jpg" id="image" width="130" style="border-radius: 50% ; height: 130px;"><br>
+             <input id="text" type="text" placeholder="Enter text to encrypt">
+              <input id="shift" type="number" placeholder="Enter shift value">
+              <button id="encrypt">Encrypt</button>
+    </div>
+    <div class="resultbox">
+     <p>Encrypted text:</p>
+     <p id="result"></p>
+
+  </div>
+</div>
+</div>
+<script src="encrypt.js"></script>
+</body>
+</html>
